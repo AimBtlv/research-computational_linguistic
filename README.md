@@ -5,9 +5,6 @@
 ##### Description: [2-3sentences]
 *****
 
-**Project Status:**
-🟡 in Process / 🟢 Complete / 🔴 On a Wait
-
 ##### About Project: [2-3 sentences: what was developed? what reason? what the methods?]
 
 ***
