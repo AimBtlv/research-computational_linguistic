@@ -19,9 +19,57 @@ session.mount("https://", adapter)
 session.headers.update(HEADERS)
 
 ARTICLES = [
-    "Albert_Einstein", "Charles_Darwin", "World_War_II",
-    "Climate_change", "Artificial_intelligence", "DNA",
-    "COVID-19_pandemic", "Facebook", "YouTube", "iPhone",
+
+    # SCIENCE AND KNOWLEDGE
+    "Albert_Einstein", "Charles_Darwin", "Photosynthesis", "DNA",
+    "Black_hole", "Artificial_intelligence", "Climate_change",
+    "COVID-19_pandemic", "Human_genome", "Wikipedia",
+
+    # HISTORY AND POLITICS
+    "World_War_II", "French_Revolution", "Cold_War",
+    "September_11_attacks", "Arab_Spring", "Occupy_Wall_Street",
+    "MeToo_movement", "Black_Lives_Matter", "WikiLeaks", "War_on_terror",
+
+    # TECHNOLOGY: HARDWARE AND PLATFORMS
+    "iPhone", "Android_(operating_system)", "iPod",
+    "Tesla_(car_company)",          # исправлено: запятая убрана
+    "SpaceX", "Google", "Amazon_(company)", "Microsoft",
+
+    # SOCIAL MEDIA AND INTERNET
+    "Facebook", "YouTube", "Twitter", "Instagram", "Reddit",
+    "TikTok", "Snapchat", "MySpace", "Napster", "iTunes",
+    "Netflix", "Spotify", "Zoom_(software)", "Remote_work",
+
+    # AI AND EMERGING TECH
+    "ChatGPT", "DALL-E", "Virtual_reality", "Augmented_reality",
+    "Non-fungible_token", "Metaverse", "Podcast",
+
+    # FILM AND TV
+    "Harry_Potter", "The_Lord_of_the_Rings", "Shrek_(film)",
+    "Avatar_(2009_film)", "Avengers_Endgame",  # исправлено: двоеточие убрано
+    "Barbie_(film)", "Oppenheimer_(film)", "Frozen_(2013_film)",
+    "Black_Panther_(film)", "Joker_(2019_film)", "Game_of_Thrones",
+    "Breaking_Bad", "Stranger_Things", "Squid_Game",
+    "Marvel_Cinematic_Universe",
+
+    # GAMING
+    "Minecraft", "Fortnite", "Pokémon_Go", "Among_Us",
+    "Grand_Theft_Auto_V", "The_Last_of_Us", "League_of_Legends",
+    "World_of_Warcraft", "Esports", "Roblox",
+
+    # MEMES AND INTERNET CULTURE
+    "Internet_meme", "Rickrolling", "Doge_(meme)", "Pepe_the_Frog",
+    "Gangnam_Style", "Ice_Bucket_Challenge", "Harlem_Shake_(meme)",
+
+    # MUSIC AND EVENTS  ← исправлено: реальные музыкальные статьи
+    "K-pop", "BTS_(band)", "BLACKPINK",
+    "Eurovision_Song_Contest",
+    "Coachella_Valley_Music_and_Arts_Festival",
+    "Studio_Ghibli", "Anime", "Manga", "Cosplay",
+
+    # SPORT AND CULTURE
+    "2024_Summer_Olympics", "Pride_parade",
+
 ]
 YEARS = list(range(2004, 2025))
 
