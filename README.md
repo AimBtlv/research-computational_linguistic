@@ -16,6 +16,20 @@ This project applies three of the six analytical methods from the original paper
  **RQ1** “When the same analytical logic (as in J.B.Michel) is applied to a structurally different dataset do the culturomics patterns hold, break down, or transform into something methodologically distinct?"
 >* Michel, J.-B., Shen, Y. K., Presser Aiden, A., Veres, A., Gray, M. K., Pickett, J. P., et al. (2011). Quantitative analysis of culture using millions of digitized books. Science, 331(6014), 176–182. https://doi.org/10.1126/science.1199644 
 ***
+##### Corpus:
+
+| Parameter | Michel et al. (2011) | This Study |
+|---|---|---|
+| **Source** | Google Books (digitised books) | Wikipedia Revision History |
+| **Access method** | Google Books Ngram Corpus | MediaWiki Revisions API |
+| **Size** | 500 billion words, 5M books | 6.6M tokens, 85 articles |
+| **Period** | 1500–2000 | 2001–2024 |
+| **Languages** | 7 (EN, FR, DE, ES, RU, ZH, HE) | English only |
+| **Genre** | Mixed (all published books) | Encyclopaedic prose only |
+| **Selection criterion** | OCR and metadata quality | Thematic diversity across topics |
+| **Caching** | N/A | `corpus_cache.json` (MediaWiki API) | 
+
+***
 #### Repository Structure:
 ##### **intro/** 
 >**background reading:**
@@ -65,21 +79,7 @@ Six analytical methods are described in Michel et al. (2011). This study planned
 | **4.Technology Diffusion** | Tracked 147 inventions as 1-grams across three 40-year cohorts (1800–1840, 1840–1880, 1880–1920). Measured years from invention to 25% of peak frequency. Found S-curves of cultural adoption shortened from over 66 years (earliest cohort) to 27 years (latest cohort), demonstrating that society absorbs new technologies progressively faster. | - | Not|
 | **5.Fame Tracking** | Used 740,000  person entries to build name lists, then tracked name frequency in Google Books over time (1800–1950 cohorts, 50 most famous people per birth year). Found peak fame occurs consistently at 75 years after birth. | - | Not | 
 | **6.Censorship / Suppression** | Proposed the suppression index: s = freq(contested period) / freq(baseline). Marc Chagall's full name appeared only once in German books across 1936–1944 (s ≈ 0), while English frequency rose continuously. Applied to five categories of people on Nazi banned lists: artists suppressed by 56%, philosophers by 76%, politicians by 60%, historians by 9%, writers by 27%. Nazi party members surged by 500%. 9.8% of individuals in German corpus showed strong suppression (s < 0.2). | Adapt the suppression index to detect endogenous editorial self-censorship in Wikipedia, replacing external state censorship with shifts in community-driven discourse | Done| 
-***
-##### Corpus:
 
-
-
-| Parameter | Michel et al. (2011) | This Study |
-|---|---|---|
-| **Source** | Google Books (digitised books) | Wikipedia Revision History |
-| **Access method** | Google Books Ngram Corpus | MediaWiki Revisions API |
-| **Size** | 500 billion words, 5M books | 6.6M tokens, 85 articles |
-| **Period** | 1500–2000 | 2001–2024 |
-| **Languages** | 7 (EN, FR, DE, ES, RU, ZH, HE) | English only |
-| **Genre** | Mixed (all published books) | Encyclopaedic prose only |
-| **Selection criterion** | OCR and metadata quality | Thematic diversity across topics |
-| **Caching** | N/A | `corpus_cache.json` (MediaWiki API) | 
 ***
 ##### Tools:  
 Python 3.x. Python Software Foundation. https://www.python.org/.    
