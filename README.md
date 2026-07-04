@@ -14,13 +14,13 @@ The question comes from Michel (2011), who introduced culturomics in their found
 This project takes that critique seriously. It applies three of the six original methods to the Wikipedia revision history from 2001 to 2024, a corpus that is genre-homogeneous, openly editable, and built on entirely different principles from Google Books. The corpus consists of 85 articles spanning 21 annual snapshots and reaching 763,041 tokens in its final year. The results show that lexical growth patterns hold, collective memory patterns transform, and the suppression index partially transfers with important conceptual adjustments. Scale alone does not guarantee insight. What matters is understanding what each corpus actually measures and being honest about the boundaries of that measurement.
 
 ***
-##### Research Questions and Hypotheses:
+##### Research Questions:
  **RQ1** “When the same analytical logic (as in J.B.Michel) is applied to a structurally different dataset do the culturomics patterns hold, break down, or transform into something methodologically distinct?"
 >* Michel, J.-B., Shen, Y. K., Presser Aiden, A., Veres, A., Gray, M. K., Pickett, J. P., et al. (2011). Quantitative analysis of culture using millions of digitized books. Science, 331(6014), 176–182. https://doi.org/10.1126/science.1199644 
 ***
 ##### Corpus:
 
-| Parameter | Michel et al. (2011) | This Study |
+| Parameter | Michel (2011) | This Study |
 |---|---|---|
 | **Source** | Google Books (digitised books) | Wikipedia Revision History |
 | **Access method** | Google Books Ngram Corpus | MediaWiki Revisions API |
