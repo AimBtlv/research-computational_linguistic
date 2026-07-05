@@ -71,7 +71,7 @@ ____
  2.
 ***
 ##### Methodology:
-Six analytical methods are described in Michel et al. (2011). This study planned to adapt all six and successfully implemented three. The table below documents the status and rationale for each.
+Six analytical methods are described in Michel (2011). This study planned to adapt all six and successfully implemented three. The table below documents the status and rationale for each.
 
 | Method | Michel (2011)| Our Adaptation |  Status | 
 |---|---|---|---
