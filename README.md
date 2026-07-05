@@ -24,7 +24,7 @@ This project takes that critique seriously. It applies three of the six original
 |---|---|---|
 | **Source** | Google Books (digitised books) | Wikipedia Revision History |
 | **Access method** | Google Books Ngram Corpus | MediaWiki Revisions API |
-| **Size** | 500 billion words, 5M books | 6.6M tokens, 85 articles |
+| **Size** | 500 billion words, 5M books | 763,041 tokens, 85 articles |
 | **Period** | 1500–2000 | 2001–2024 |
 | **Languages** | 7 (EN, FR, DE, ES, RU, ZH, HE) | English only |
 | **Genre** | Mixed (all published books) | Encyclopaedic prose only |
@@ -80,7 +80,7 @@ Six analytical methods are described in Michel et al. (2011). This study planned
 | **3.Collective Memory** | Measured how often specific historical year-strings ( "1951", "1883") appeared in books published after those years. Found a characteristic two-component curve: a sharp short-term peak followed by slow long-term decay. "1880" lost half its peak frequency within 32 years, "1973" within just 10 years. Concluded that collective forgetting is accelerating across generations. | Track the frequency of historical year-strings (1945, 1969, 1989, 2001, 2008, 2016, 2020) in Wikipedia annual snapshots taken after those years. Compare half-life of mention frequency with Michel(2011) values to test whether digital encyclopaedic memory decays at the same rate.  | Done| 
 | **4.Technology Diffusion** | Tracked 147 inventions as 1-grams across three 40-year cohorts (1800–1840, 1840–1880, 1880–1920). Measured years from invention to 25% of peak frequency. Found S-curves of cultural adoption shortened from over 66 years (earliest cohort) to 27 years (latest cohort), demonstrating that society absorbs new technologies progressively faster. | - | Not|
 | **5.Fame Tracking** | Used 740,000  person entries to build name lists, then tracked name frequency in Google Books over time (1800–1950 cohorts, 50 most famous people per birth year). Found peak fame occurs consistently at 75 years after birth. | - | Not | 
-| **6.Censorship / Suppression** | Proposed the suppression index: s = freq(contested period) / freq(baseline). Marc Chagall's full name appeared only once in German books across 1936–1944 (s ≈ 0), while English frequency rose continuously. Applied to five categories of people on Nazi banned lists: artists suppressed by 56%, philosophers by 76%, politicians by 60%, historians by 9%, writers by 27%. Nazi party members surged by 500%. 9.8% of individuals in German corpus showed strong suppression (s < 0.2). | Adapt the suppression index to detect endogenous editorial self-censorship in Wikipedia, replacing external state censorship with shifts in community-driven discourse | Done| 
+| **6.Censorship / Suppression** | Proposed the suppression index: s = freq(contested period) / freq(baseline). Marc Chagall's full name appeared only once in German books across 1936–1944 (s = 0), while English frequency rose continuously. Applied to five categories of people on Nazi banned lists: artists suppressed by 56%, philosophers by 76%, politicians by 60%, historians by 9%, writers by 27%. Nazi party members surged by 500%. 9.8% of individuals in German corpus showed strong suppression (s < 0.2). | Adapt the suppression index to detect endogenous editorial self-censorship in Wikipedia, replacing external state censorship with shifts in community-driven discourse | Done| 
 
 ***
 ##### Tools:  
